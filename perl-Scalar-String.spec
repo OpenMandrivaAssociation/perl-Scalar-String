@@ -1,15 +1,15 @@
 %define upstream_name    Scalar-String
-%define upstream_version 0.001
+%define upstream_version 0.002
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%perl_convert_version 0.002
+Release:	1
 
 Summary:	String aspects of scalars
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Scalar/%{upstream_name}-%{upstream_version}.tar.lzma
+Source0:	http://www.cpan.org/modules/by-module/Scalar/Scalar-String-0.002.tar.gz
 
 BuildRequires:	perl(Carp)
 BuildRequires:	perl(Exporter)
@@ -60,4 +60,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 * Sat Aug 28 2010 Shlomi Fish <shlomif@mandriva.org> 0.1.0-1mdv2011.0
 + Revision: 573811
 - import perl-Scalar-String
+
 
