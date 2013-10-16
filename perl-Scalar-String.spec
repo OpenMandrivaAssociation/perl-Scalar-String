@@ -2,14 +2,14 @@
 %define upstream_version 0.002
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 0.002
+Version:	%perl_convert_version %{upstream_version}
 Release:	1
 
 Summary:	String aspects of scalars
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Scalar/Scalar-String-0.002.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Scalar/Scalar-String-%{upstream_version}.tar.gz
 
 BuildRequires:	perl(Carp)
 BuildRequires:	perl(Exporter)
