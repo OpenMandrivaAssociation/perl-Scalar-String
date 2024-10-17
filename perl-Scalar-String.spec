@@ -8,7 +8,7 @@ Release:	3
 Summary:	String aspects of scalars
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Scalar/Scalar-String-%{upstream_version}.tar.gz
 
 BuildRequires:	perl(Carp)
