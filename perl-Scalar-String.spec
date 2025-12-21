@@ -11,6 +11,7 @@ Group:		Development/Perl
 Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Scalar/Scalar-String-%{upstream_version}.tar.gz
 
+BuildRequires:	make
 BuildRequires:	perl(Carp)
 BuildRequires:	perl(Exporter)
 BuildRequires:	perl(ExtUtils::CBuilder)
