@@ -1,15 +1,15 @@
 %define upstream_name    Scalar-String
-%define upstream_version 0.002
+%define upstream_version 0.003
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	String aspects of scalars
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Scalar/Scalar-String-%{upstream_version}.tar.gz
+Url:		https://metacpan.org/dist/Scalar-String
+Source0:	https://cpan.metacpan.org/authors/id/Z/ZE/ZEFRAM/Scalar-String-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl(Carp)
